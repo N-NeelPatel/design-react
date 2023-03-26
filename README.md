@@ -1,5 +1,22 @@
-# design-react
+## Relative design react
+This is a design using the component from src/components/Card.tsx.
 
+### Getting Started
+To get started with this project, follow the instructions below:
+
+Clone this repository to your local machine.
+- Install the required packages by running the following command in the terminal: `npm install`.
+- Navigate to the project directory in the terminal.
+- Run the project by executing the command `npm run start` to start the local server.
+
+### Project Structure
+The project consists of the following files and directories:
+- `src/App.tsx` - The main page of the project which uses other component.
+- `src/components/Card.tsx` - The card component which is rendered in App.tsx file.
+- `src/data.ts` - sample data file for the project
+- `src/images` - images used in the project
+- `src/App.css` - css that is used by the App.tsx file
+- `src/components/Card.css` - css that is used by the Card.tsx file
 
 ### Screenshots
 - Component
