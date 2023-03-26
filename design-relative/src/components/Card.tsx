@@ -214,7 +214,9 @@ const Card: React.FC<Props> = ({
         <div className="price">
           <div className="dumy"></div>
           <div className="current-price">{data.current_price}</div>
-          <div className="price-change {data.last_change < 0 ? 'red' : 'green'}">
+          <div
+            className={`price-change ${data.last_change < 0 ? "red" : "green"}`}
+          >
             {data.last_change > 0 ? "+" : ""}
             {data.last_change}%
           </div>
