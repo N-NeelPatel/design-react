@@ -4,7 +4,7 @@ Design using react js
 ### Getting Started
 To get started with this project, follow the instructions below:
 
-Clone this repository to your local machine.
+- Clone this repository to your local machine.
 - Install the required packages by running the following command in the terminal: `npm install`.
 - Navigate to the project directory in the terminal.
 - Run the project by executing the command `npm run start` to start the local server.
