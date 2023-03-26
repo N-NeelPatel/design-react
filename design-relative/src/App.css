@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap');
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #14172B;
+  font-family: 'Tomorrow', sans-serif;
+  display: block;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-left: 85px;
+}
+
+.selected-card {
+  margin: 0 10px;
+}
+.trending-assets {
+  padding-top: 200px;
+  display: flex;
+  padding-left: 85px;
+}
+.trending-text {
+  color: #ECF0FF;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 15px;
+}

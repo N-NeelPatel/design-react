@@ -1,0 +1,162 @@
+.the-svg {
+    position: absolute;
+    z-index: -1;
+}
+.small-container {
+    display: flex;
+    justify-content: space-around;
+}
+.the-svg-small {
+    position: absolute;
+    z-index: -1;
+    margin: 0 25px;
+    display: flex;
+}
+
+.container {
+  width: 290px;
+  height: 350px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  font-family: 'Tomorrow', sans-serif;
+  position: relative;
+}
+
+.circle-svg {
+    position: absolute;
+    z-index: -1;
+}
+
+.circle-logo{ 
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-logo-inside {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.data-content {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+}
+.name {
+    margin-top: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: #737BAE;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.elipse-container {
+    margin-top: 7px;
+    display: flex;
+    margin-left: 25px; 
+    margin-right: 25px; 
+    align-items: center;
+    z-index: -1;
+    position: absolute;
+}
+
+.price {
+    margin-top: 7px;
+    display: flex;
+    margin-left: 25px; 
+    margin-right: 25px; 
+    border-radius: 20px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+
+.price-change {
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.current-price {
+    margin-left: 57px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #ECF0FF;
+}
+.red {
+    color: #FF4D4D;
+}
+.green {
+    color: #00FFA3;
+}
+
+.price-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.price-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: #5A5F7D;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 31px;
+}
+.tvl-container {
+    margin-top: 7px;
+    display: flex;
+    margin-left: 25px; 
+    margin-right: 25px; 
+    border-radius: 20px;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+.tvl {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #ECF0FF;
+}
+.pair-container {
+    margin: 0 25px;
+    align-items: center;
+    display: flex;
+}
+.pairs {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 0 5px;
+}
+.icons {
+    margin: 0 5px;
+}
+img {
+    vertical-align: middle;
+}
