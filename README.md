@@ -1,5 +1,5 @@
 ## Relative design react
-This is a design using the component from src/components/Card.tsx.
+Design using react js
 
 ### Getting Started
 To get started with this project, follow the instructions below:
